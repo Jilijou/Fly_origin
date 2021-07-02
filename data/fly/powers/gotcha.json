@@ -3,8 +3,7 @@
 	"min_stacks": 0,
 	"max_stacks": 3,
 	"duration_per_stack": 20,
-	"effects": [
-		{
+	"effects": [{
 			"effect": "minecraft:slowness",
 			"duration": 20,
 			"amplifier": 255,
@@ -23,15 +22,13 @@
 	],
 	"condition": {
 		"type": "origins:or",
-		"conditions": [
-			{
-				"type": "origins:in_block",
-				"block_condition": {
+		"conditions": [{
+			"type": "origins:in_block",
+			"block_condition": {
 				"type": "origins:block",
 				"block": "minecraft:cobweb"
-				}
 			}
-		]	
+		}]
 	},
 	"name": "Gotcha",
 	"description": " If you get in a cobweb, you'll be stuck forever and won't be able to leave until you break it."

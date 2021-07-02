@@ -1,6 +1,6 @@
 {
-  "replace": false,
-  "origins": [
-    "fly:fly"
-  ]
+	"replace": false,
+	"origins": [
+		"fly:fly"
+	]
 }
