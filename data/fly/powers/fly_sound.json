@@ -6,18 +6,18 @@
 		"permission_level": 4
 	},
 	"condition": {
-	  	"type": "origins:or",
-		"conditions": [ {
-			"type": "origins:swimming",
-			"condition": {
-				"type": "origins:submerged_in",
-				"fluid": "minecraft:water",
-				"inverted": true
+		"type": "origins:or",
+		"conditions": [{
+				"type": "origins:swimming",
+				"condition": {
+					"type": "origins:submerged_in",
+					"fluid": "minecraft:water",
+					"inverted": true
+				}
+			},
+			{
+				"type": "origins:fall_flying"
 			}
-		},
-		{
-			"type": "origins:fall_flying"
-		}
 		]
 	},
 	"interval": 100,
