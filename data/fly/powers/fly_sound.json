@@ -1,0 +1,25 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "playsound minecraft:entity.bee.loop player @a[distance=0..7]",
+		"permission_level": 4
+	},
+	"condition": {
+	  	"type": "origins:or",
+		"conditions": [ {
+			"type": "origins:swimming",
+			"condition": {
+				"type": "origins:submerged_in",
+				"fluid": "minecraft:water",
+				"inverted": true
+			}
+		},
+		{
+			"type": "origins:fall_flying"
+		}
+		]
+	},
+	"interval": 100,
+	"hidden": true
+}

@@ -1,0 +1,28 @@
+{
+  "type": "origins:swimming",  
+	"condition": {
+		"type": "origins:or",
+		"inverted": true,
+		"conditions": [
+			{
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": ">",
+			"compare_to": 0.0
+		    },
+            {
+              "type": "origins:in_rain"
+            },
+			{
+				"type": "origins:in_block",
+				"block_condition": {
+				"type": "origins:block",
+				"block": "minecraft:cobweb"
+				}
+			}
+        ]
+	},
+ 	"name": "Winged annoying creature",
+	"description": "You have wings naturally, no need to get some ! You can also fly freely in the air and not glide like birds.",
+	"hidden": true
+}

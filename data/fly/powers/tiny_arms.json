@@ -1,0 +1,12 @@
+{
+	"type": "origins:attribute",
+	"modifier": 
+	{
+		"name": "Origin modifier",
+		"attribute": "reach-entity-attributes:attack_range",
+		"value": -2,
+		"operation": "addition"
+	  },
+	"name": "Tiny arms",
+	"description": "Except at being annoying, you're not that useful, and your small arms are no use in a fight, having a reach of only a single block for fighting."
+}

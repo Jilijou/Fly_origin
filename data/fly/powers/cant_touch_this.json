@@ -1,0 +1,194 @@
+{
+    "type": "origins:multiple",
+    "usmol_flynow":{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+    "type": "origins:and",
+        "actions": [
+        {
+        "type": "origins:execute_command",
+        "command": "team add smol_fly",
+        "permission_level": 4
+        },
+        {
+        "type": "origins:execute_command",
+        "command": "team join smol_fly @s",
+        "permission_level": 4
+        }
+        ]
+    },  
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "team leave @s",
+        "permission_level": 4
+    }
+    },
+    "smol_flysmol_flynow":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                "type": "origins:execute_command",
+                "command": "team leave @e[tag=hateunow]",
+                "permission_level": 4
+                },
+                {
+                "type": "origins:execute_command",
+                "command": "team join smol_fly @e[type=minecraft:zombie,tag=!hateunow]",
+                "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:skeleton,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:husk,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:drowned,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:stray,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:zombie_villager,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:creeper,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:wither_skeleton,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:blaze,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:slime,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:magma_cube,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:endermite,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:evoker,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:guardian,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:elder_guardian,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:ghast,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:hoglin,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:piglin,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:piglin_brute,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:zoglin,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:phantom,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:pillager,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:silverfish,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:ravager,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:witch,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:vindicator,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:shulker,tag=!hateunow]",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join smol_fly @e[type=minecraft:enderman,tag=!hateunow]",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "interval": 20
+    },
+    "umesswithsmol_flyugetsmol_fly":{
+        "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "tag @s[team=smol_fly,type=!minecraft:player] add hateunow",
+        "permission_level": 4
+    },
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    }
+    },
+	"name": "Can't touch this",
+	"description": "You're so tiny, mobs won't bother attacking you except if you bite them first. Except for spiders, they won't miss such a delicious meal."
+}

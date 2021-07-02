@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"origins:elytra",
+		"fly:wings",
+		"fly:faster_wings",
+		"extraorigins:nimble",
+		"fly:cant_touch_this",
+		"fly:where_did_it_go",
+		"fly:shorty",
+		"fly:health",
+		"fly:gotcha",
+		"fly:tiny_arms",
+		"fly:wet_wings",
+		"fly:fly_sound"
+		
+	],
+	"icon": "minecraft:nether_wart",
+	"order": 5,
+	"impact": 3,
+	"name": "Fly",
+	"description": "You're the worst nightmare of sleep enjoyers and food fans. You're so tiny almost nothing can catch you, but you'll die in a single hit."
+}
